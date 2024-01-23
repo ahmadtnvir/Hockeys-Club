@@ -122,18 +122,21 @@
       </section>
 
       <!-- carousel section -->
-      <section class="mt-12 mb-24">
-        <div class="relative carousel w-full h-[550px] rounded-2xl">
+      <section class="relative mt-6 lg:mt-12 lg:mb-24">
+        <div class="carousel w-full rounded-2xl">
           <div
             id="slide1"
-            class="carousel-item relative w-full bg-[url('./Images/1.png')] bg-no-repeat bg-cover bg-center"
+            class="carousel-item relative w-full h-[210px] lg:h-[550px] bg-[url('./Images/1.png')] bg-no-repeat bg-cover bg-center"
           >
-            <!-- <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" /> -->
             <div
-              class="absolute flex bottom-8 left-8 space-x-4"
+              class="absolute flex bottom-0 left-[170px] lg:bottom-8 lg:left-8 space-x-4"
             >
-              <a href="#slide4" class="btn btn-circle bg-[#131318] text-[#fff]">❮</a>
-              <a href="#slide2" class="btn btn-circle bg-[#131318] text-[#fff]">❯</a>
+              <a href="#slide4" class="btn btn-circle bg-[#131318] text-[#fff]"
+                >❮</a
+              >
+              <a href="#slide2" class="btn btn-circle bg-[#131318] text-[#fff]"
+                >❯</a
+              >
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
@@ -172,14 +175,118 @@
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
-          <div class="absolute bottom-8 right-8 w-[560px] h-[165px] bg-[#131318] rounded-2xl p-5">
-            <h5 class="text-[#fff] text-2xl font-extrabold">Meet all the heroes from the field</h5>
-            <p class="text-[#ffffff99] text-base font-medium mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nemo dolor beatae! Sapiente voluptatibus eveniet maxime suscipit corrupti sequi officiis.</p>
-          </div>
+        </div>
+        <div
+          class="lg:absolute lg:bottom-8 lg:right-8 sm:w-full lg:w-[560px] lg:h-[165px] bg-[#131318] rounded-2xl p-4 lg:p-4 mt-4"
+        >
+          <h5 class="text-[#fff] text-lg lg:text-2xl font-extrabold">
+            Meet all the heroes from the field
+          </h5>
+          <p
+            class="text-[#ffffff99] text-sm lg:text-base font-medium mt-2 lg:mt-4"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            nemo dolor beatae! Sapiente voluptatibus eveniet maxime suscipit
+            corrupti sequi officiis.
+          </p>
         </div>
       </section>
     </header>
-    <main></main>
+
+    <main class="container mx-auto px-5 lg:px-33">
+      <!-- Professional section -->
+      <section>
+        <div
+          class="border-dashed border-[2px] border-[#13131833] border-l-0 border-r-0 text-center py-8 px-80 space-y-6 mb-12"
+        >
+          <h3 class="text-[#131318] text-4xl font-extrabold">
+            Professional Hockeys Club
+          </h3>
+          <p class="text-[#13131899] text-base font-medium">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, ut
+            ipsa doloribus sit nihil suscipit laudantium sapiente laboriosam
+            necessitatibus ipsam.
+          </p>
+        </div>
+        <div class="flex justify-around items-center">
+          <div class="text-center">
+            <div
+              class="radial-progress text-red-500"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <span class="text-[#131318] text-xl font-extrabold">87%</span>
+            </div>
+            <div>
+              <h6 class="text-[#131318] text-xl font-semibold mt-6 mb-4">
+                Prayer Facility
+              </h6>
+              <p class="text-[#13131899]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                ducimus?
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div
+              class="radial-progress text-green-500"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <span class="text-[#131318] text-xl font-extrabold">95%</span>
+            </div>
+            <div>
+              <h6 class="text-[#131318] text-xl font-semibold mt-6 mb-4">
+                Experienced Coach
+              </h6>
+              <p class="text-[#13131899]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                ducimus?
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div
+              class="radial-progress text-yellow-500"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class="text-[#131318] text-xl font-extrabold">90%</span>
+            </div>
+            <div>
+              <h6 class="text-[#131318] text-xl font-semibold mt-6 mb-4">
+                Senior Player
+              </h6>
+              <p class="text-[#13131899]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                ducimus?
+              </p>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div
+              class="radial-progress text-blue-500"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <span class="text-[#131318] text-xl font-extrabold">80%</span>
+            </div>
+            <div>
+              <h6 class="text-[#131318] text-xl font-semibold mt-6 mb-4">
+                Training Ground
+              </h6>
+              <p class="text-[#13131899]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                ducimus?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
